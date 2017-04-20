@@ -7,13 +7,14 @@
     <title>Contact | Steven Foster Jr</title>
     <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
 
 <body>
     <nav class="navbar navbar-default">
         <div class="container">
             <div class="navbar-header">
-                <a class="navbar-brand" href="index.html">Steven Foster Jr</a>
+                <a class="navbar-brand bg-success" href="index.html">Steven Foster Jr</a>
             </div>
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
@@ -25,31 +26,31 @@
         </div>
     </nav>
     <div id="main-container" class="container">
-        <section class="main-section">
-            <h1>Contact</h1>
+        <section class="main-section">           
             <div class="row">
-            <div class="col-md-8">
+            <div class="col-md-8" id="contactForm">
+            <h1 id="contactHead">Contact</h1>
             <form>
-            <div class="form-group">
-                    <label for="exampleInputName1">Password</label>
-                    <input type="name" class="form-control" id="exampleInputName1" placeholder="Name">
+            <div class="form-group" id="name">
+                    <label for="exampleInputName1">Name</label>
+                    <input type="name" class="form-control" id="exampleInputName1" placeholder="John Smith">
                 </div>
                 <div class="form-group">
-                    <label for="exampleInputEmail1">Email address</label>
-                    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
+                    <label for="exampleInputEmail1">Email Address</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="example@example.com">
                 </div>
                 <div class="form-group">
                     <label for="exampleInputMessage1">Message</label>
-                    <textarea class="form-control" rows="5" id="comment"></textarea>
+                    <textarea class="form-control" rows="5" id="Message"></textarea>
                 </div>
                 
-                <button type="submit" class="btn btn-success">Submit</button>
+                <button type="submit" class="btn btn-success" id="button">Submit</button>
             </form>
             </div>
             <div class="col-md-4">
-                <div class="panel panel-default">
+                <div class="panel panel-success">
                     <div class="panel-heading">
-                        <h3 class="panel-title">Connect with Me</h3>
+                        <h3 class="panel-title"><strong>Connect with Me</strong></h3>
                     </div>
                     <div class="panel-body">
                         <a href="https://github.com/BigFos" class="col-md-4">
@@ -65,7 +66,8 @@
                 </div>
             </div>
             </div>
-            <footer class="container">
+        </section>    
+            <footer class="container bg-success" id="foot">
                 <div class="row">
                     <div class="col-md-12 text-center"> Copyright &copy; 2017 Steven Foster Jr
                     </div>

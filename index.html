@@ -7,27 +7,30 @@
     <title>About | Steven Foster Jr</title>
     <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
 
 <body>
-    <nav class="navbar navbar-default">
-        <div class="container">
-            <div class="navbar-header">
-                <a class="navbar-brand bg-success" href="index.html">Steven Foster Jr</a>
+    <header>
+        <nav class="navbar navbar-default">
+            <div class="container">
+                <div class="navbar-header">
+                    <a class="navbar-brand bg-success" href="index.html">Steven Foster Jr</a>
+                </div>
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="index.html">About</a></li>
+                        <li><a href="portfolio.html">Portfolio</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
             </div>
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav navbar-right">
-                    <li><a href="index.html">About</a></li>
-                    <li><a href="portfolio.html">Portfolio</a></li>
-                    <li><a href="contact.html">Contact</a></li>
-                </ul>
-            </div>
-        </div>
-    </nav>
+        </nav>
+    </header>
     <div class="container">
         <div class="row">
-            <div class="col-md-8">
-                <div class="page-header">
+            <div class="col-md-8" id="aboutMe">
+                <div class="page-header bg-success" id="about">
                     <h1>About Me</h1>
                 </div>
                 <div class="row">
@@ -44,10 +47,10 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-4">
-                <div class="panel panel-default">
+            <div class="col-md-4" id="connect">
+                <div class="panel panel-success">
                     <div class="panel-heading">
-                        <h3 class="panel-title">Connect with Me</h3>
+                        <h3 class="panel-title"><strong>Connect with Me</strong></h3>
                     </div>
                     <div class="panel-body">
                         <a href="https://github.com/BigFos" class="col-md-4">
@@ -64,7 +67,7 @@
             </div>
         </div>
     </div>
-    <footer class="container">
+    <footer class="container bg-success">
         <div class="row">
             <div class="col-md-12 text-center"> Copyright &copy; 2017 Steven Foster Jr
             </div>
